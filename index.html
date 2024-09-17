@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, intial - scale=1.0" >
+    <meta name="description" content="Michael Luckman's Aquarium">
+    <title>Michael Luckman's Aquarium</title>
+    <link rel="icon" type="image/x-icon" href="images/ai-generate-images/Leonardo_Phoenix_A_vibrant_depiction_of_a_guppy_fish_showcasin_2.jpg">
+    <link rel="stylesheet" href="general.css" >
+    <link rel="stylesheet" href="header.css"  >
+    <link rel="stylesheet" href="index.css"   >
+    <link rel="stylesheet" href="footer.css"  >     
+</head>
+
+<body>
+
+    <header>
+        <h1>Michael Luckman's Aquarium</h1>
+        <label for="hamburger_checkbox">
+            <img src="images/hamburger_menu.svg" alt="Menu" id="hamburger_image">
+        </label>
+        <input type="checkbox" id="hamburger_checkbox">
+
+        <nav>
+            <a href="index.html" class="active_nav" >Home</a>
+            <a href="photos.html"                   >Photos</a>
+            <a href="about.html"                    >About</a>
+            <a href="contact.html"                  >Contact</a>
+        </nav>
+    </header>
+<main>
+    <aside>
+        <!-- external links -->
+        <a href="https://en.wikipedia.org/wiki/Tropical_fish">Wikipedia Tropical Fish</a>
+        <a href="https://en.wikipedia.org/wiki/Guppy">Wikipedia Guppy</a>
+        <a href="https://en.wikipedia.org/wiki/Bala_shark">Wikipedia silver shark</a>
+        <a href="https://en.wikipedia.org/wiki/Ancistrus">Wikipedia Bristlenose catfish</a>
+        <a href="https://en.wikipedia.org/wiki/Betta">Wikipedia Betta Fish</a>
+        <a href=""></a>
+    </aside>
+
+    <section>
+        <h2>Michael Luckman's Aquarium</h2>
+        <!-- responsive image? -->
+
+        <picture>
+            <!-- 7680px image for screens wider than 3840px -->
+            <source srcset="images/7680px/Whole-Tank-7680.jpg" media="(min-width: 3840px)">
+          
+            <!-- 3840px image for screens wider than 1920px -->
+            <source srcset="images/3840px/Whole-Tank-3840.jpg" media="(min-width: 1920px)">
+          
+            <!-- 1920px image for screens wider than 960px -->
+            <source srcset="images/1920px/Whole-Tank-1920.jpg" media="(min-width: 960px)">
+          
+            <!-- 960px image for screens wider than 480px -->
+            <source srcset="images/480px/Whole-Tank-480.jpg" media="(min-width: 480px)">
+          
+            <!-- Fallback to 480px image if no match -->
+            <img src="image-480px.jpg" alt="Responsive Image">
+          </picture>
+        <!-- <img id="main_image" 
+        srcset="images/480px/Whole-Tank-480 480w,
+                images/960px/Whole-Tank-960.jpg 960w,
+                images/1920px/whole-Tank-1920.jpg 1920w,
+                images/3840px/Whole-Tank-3840.jpg 3840w," 
+        
+        sizes=" (max-width: 480px) 480px,
+                (max-width: 960px) 960px,
+                (max-width: 1920px) 1920px,
+                (max-width: 3840px) 3840px,
+                (max-width: 7680px) 7680px,"
+               src="images/1920px/Whole-Tank-1920.jpg"
+        alt="A photo of Michael Luckman's Aquarium as a whole"
+        title="Michael Luckman's Aquarium"/> -->
+        <article>
+            <h2> Michael Luckman's Aquarium</h2>
+            <p>
+                Michael Luckman has 2 Aquarium's, a 1.2m 200l and 45cm 50l. <br /> <br />
+                The 200l Aquarium has Guppies, a Beta Fish and a silver shark. 
+                The Silver Shark is in the tank to help keep it clean. The Guppies names are Blueberry, Dmitri, Lime, McDreamy, Rainbow and Zuko. 
+                The Beta fish is called Saphire.
+                The Silver Shark is called Lenny <br /> <br />
+                The 50l Aquarium has female Guppies, some of which are pregnant and a Bristlenose Catfish. 
+                The Guppies names are Baby, Flash, Grey and Panda.
+                The Bristlenose Catfish is called Pineapple.  
+                <br /> <br /><a href="https://en.wikipedia.org/wiki/Peru">Source: Michael Luckman</a>
+            </p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>
+        <span property="dct:title">Michael Luckman's Aquarium &copy;</span> by 
+        <span property="cc:attributionName">Michael Luckman</span> is licensed under 
+        <br>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" 
+        target="_blank" rel="license noopener noreferrer">CC BY-NC-SA 4.0
+        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt="">
+        <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a>
+        
+    </p>
+</footer>
+</body>
+</html>

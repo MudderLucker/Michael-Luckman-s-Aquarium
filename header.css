@@ -5,12 +5,12 @@ header{
       }
 
       h1{
-        color: #0000FF;
-        float: left;
-        padding: 0 20px;
-        text-align: center;
-        width: 100%;
-        }
+         color: #0000FF;
+         float: left;
+         padding: 0 20px;
+         text-align: center;
+         width: 100%;
+         }
 
         #hamburger_checkbox{
             display: none;

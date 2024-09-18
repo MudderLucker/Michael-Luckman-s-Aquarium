@@ -1,11 +1,11 @@
 /* mobile first view */
 header{
-   background-color: #08a087 ; 
+   background-color: #19F0CC ; 
    overflow: hidden; 
       }
 
       h1{
-         color: #0000FF;
+         color: #000000;
          float: left;
          padding: 0 20px;
          text-align: center;

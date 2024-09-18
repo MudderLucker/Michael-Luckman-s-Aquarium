@@ -5,19 +5,19 @@ header{
       }
 
       h1{
-         color: #000000;
-         float: left;
-         padding: 0 20px;
-         text-align: center;
-         width: 100%;
-         }
+        color: #000000;
+        float: left;
+        padding: 0 20px;
+        text-align: center;
+        width: 100%;
+        }
 
         #hamburger_checkbox{
             display: none;
                            }
 /*  dropdown menu */
         #hamburger_image{
-         background-color: #0AD1B0;
+         background-color: #19F0CC;
          display: block;
          margin: 20px;
          margin-left: auto;
@@ -32,7 +32,7 @@ header{
                                         }
 
  nav a {
-   color: white;
+   color: black;
    float: left;
    font-size: 17px;
    padding: 30px 20px;
@@ -43,13 +43,13 @@ header{
 
 /* change colors on mouse over */
 nav a:hover{
-background-color: #0AD1B0;
-color: #000;
+background-color: #e60f33;
+color: white;
            }
 
 /* change colors on tabe key focus */
 nav a:focus{
-background-color: #0AD1B0;
+background-color: #19F0CC;
 color: #000;
 outline: none;
            }           
